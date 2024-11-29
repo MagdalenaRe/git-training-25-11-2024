@@ -9,6 +9,8 @@ public class Main {
         System.out.println("Hello World again!");
 
         Scanner  scanner = new Scanner(System.in);
+        String line = scanner.nextLine();
+        scanner.close();
 
         Random rand = new Random();
         int value = rand.nextInt(100);
